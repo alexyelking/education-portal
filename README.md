@@ -28,6 +28,12 @@
 ---------------------------------------
 5. Пыха
 > sudo apt install php libapache2-mod-php php-mysql
+<br/>
+<br/>
+> sudo apt-get install php7.4-mbstring
+<br/>
+<br/>
+> sudo apt-get install php7.4-xml
 ---------------------------------------
 6. Копмозер
 > curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
