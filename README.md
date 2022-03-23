@@ -7,16 +7,16 @@
 ---------------------------------------
 2. Ключ для гит
 > ssh-keygen -t rsa
-2. Ключ для гит
+<br/>
 > cat ~/.ssh/id_rsa.pub
 ---------------------------------------
 3. Апач сервер
 > sudo apt update
-3. Апач сервер
+<br/>
 > sudo apt install apache2
-3. Апач сервер
+<br/>
 > sudo ufw app list
-3. Апач сервер
+<br/>
 > sudo ufw allow in "Apache"
 ---------------------------------------
 4. Мускул
@@ -30,26 +30,26 @@
 ---------------------------------------
 7. Докер
 > sudo apt update
-7. Докер
+<br/>
 > sudo apt install apt-transport-https ca-certificates curl software-properties-common
-7. Докер
+<br/>
 > curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-7. Докер
+<br/>
 > sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
-7. Докер
+<br/>
 > sudo apt update
-7. Докер
+<br/>
 > apt-cache policy docker-ce
-7. Докер
+<br/>
 > sudo apt install docker-ce
-7. Докер
+<br/>
 > sudo usermod -aG docker ${USER}
-7. Докер
+<br/>
 > su - ${USER}
 ---------------------------------------
 8. Докер компоуз
 > sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-8. Докер компоуз
+<br/>
 > sudo chmod +x /usr/local/bin/docker-compose
 ---------------------------------------
 ## Как запустить?
