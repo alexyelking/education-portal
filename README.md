@@ -1,45 +1,58 @@
-<!---Пример кода-->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%56025c&lines=Sanya+diplom+almost+ready)](https://git.io/typing-svg)
-____
-### Что установить?
-1. Гит
-*  sudo apt install git
-
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%56025c&lines=SanyaDiplom+almost+ready)](https://vk.com/lampanon)
+---------------------------------------
+## Что установить?
+---------------------------------------
+1. Установка гит
+> sudo apt install git
+---------------------------------------
 2. Ключ для гит
-*  ssh-keygen -t rsa
-*  cat ~/.ssh/id_rsa.pub
-
+> ssh-keygen -t rsa
+2. Ключ для гит
+> cat ~/.ssh/id_rsa.pub
+---------------------------------------
 3. Апач сервер
-*  sudo apt update
-*  sudo apt install apache2
-*  sudo ufw app list
-*  sudo ufw allow in "Apache"
-
+> sudo apt update
+3. Апач сервер
+> sudo apt install apache2
+3. Апач сервер
+> sudo ufw app list
+3. Апач сервер
+> sudo ufw allow in "Apache"
+---------------------------------------
 4. Мускул
-*  sudo apt install mysql-server
-
+> sudo apt install mysql-server
+---------------------------------------
 5. Пыха
-*  sudo apt install php libapache2-mod-php php-mysql
-
+> sudo apt install php libapache2-mod-php php-mysql
+---------------------------------------
 6. Копмозер
-*  curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
-
+> curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+---------------------------------------
 7. Докер
-*  sudo apt update
-*  sudo apt install apt-transport-https ca-certificates curl software-properties-common
-*  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-*  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
-* sudo apt update
-* apt-cache policy docker-ce
-* sudo apt install docker-ce
-* sudo usermod -aG docker ${USER}
-* su - ${USER}
-
+> sudo apt update
+7. Докер
+> sudo apt install apt-transport-https ca-certificates curl software-properties-common
+7. Докер
+> curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+7. Докер
+> sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+7. Докер
+> sudo apt update
+7. Докер
+> apt-cache policy docker-ce
+7. Докер
+> sudo apt install docker-ce
+7. Докер
+> sudo usermod -aG docker ${USER}
+7. Докер
+> su - ${USER}
+---------------------------------------
 8. Докер компоуз
-*  sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-*  sudo chmod +x /usr/local/bin/docker-compose
-____
-### Как запустить?
+> sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+8. Докер компоуз
+> sudo chmod +x /usr/local/bin/docker-compose
+---------------------------------------
+## Как запустить?
 ---------------------------------------
 1. Скопировать файл окружения для докер:
 > cp .env.example .env
