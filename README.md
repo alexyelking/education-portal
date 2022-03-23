@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%56025c&lines=SanyaDiplom+almost+ready)](https://vk.com/lampanon)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%56025c&lines=Сашенька,+диплом+скоро+будет)](https://vk.com/lampanon)
 ---------------------------------------
 ## Что установить?
 ---------------------------------------
