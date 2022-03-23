@@ -1,18 +1,19 @@
-# Customer Relationship Management
+<!---Пример кода-->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%56025c&lines=Sanya+diplom+almost+ready)](https://git.io/typing-svg)
 ____
 ### Что установить?
 1. Гит
-- sudo apt install git
+* sudo apt install git
 
 2. Ключ для гит
-- ssh-keygen -t rsa
-- cat ~/.ssh/id_rsa.pub
+* ssh-keygen -t rsa
+* cat ~/.ssh/id_rsa.pub
 
 3. Апач сервер
-- sudo apt update
-- sudo apt install apache2
-- sudo ufw app list
-- sudo ufw allow in "Apache"
+* sudo apt update
+* sudo apt install apache2
+* sudo ufw app list
+* sudo ufw allow in "Apache"
 
 4. Мускул
 - sudo apt install mysql-server
