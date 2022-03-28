@@ -1,1 +1,1 @@
-CREATE DATABASE sanyadiplom_db
+CREATE DATABASE sanya_db
