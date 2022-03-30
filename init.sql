@@ -1,1 +1,1 @@
-CREATE DATABASE hmq_db
+CREATE DATABASE education_db
