@@ -99,12 +99,8 @@
 ---------------------------------------
 9. Создать ключ для приложения:
 > php artisan key:generate
----------------------------------------
-10. Чистим конфиги:
-> php artisan config:clear
----------------------------------------
-11. Выйти из web и полностью перезапустить докер:
-> docker-compose down && docker-compose up --build -d
----------------------------------------
-12. docker compose exec web bash
-13. php artisan migrate
+10. php artisan optimize
+11. php artisan migrate
+12. php artisan db:seed
+13. php artisan optimize
+14. docker-compose down && docker-compose up --build -d
