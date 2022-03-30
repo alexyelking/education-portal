@@ -2,15 +2,41 @@
 
 namespace App\Exceptions;
 
+use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
-use Throwable;
+use Illuminate\Auth\AuthenticationException;
 
 class Handler extends ExceptionHandler
 {
+
+    /**
+     * overriding Illuminate\Foundation\Exceptions\Handler unauthenticated method
+     */
+     protected function unauthenticated($request, AuthenticationException $exception)
+     {
+        if($request->expectsJson())
+        {
+           return response()->json(['message' => $exception->getMessage()], 401);
+        }
+
+        if($request->is('admin') || $request->is('admin/*')){
+            return redirect()->guest('/admin/login');
+        }
+
+        if($request->is('teacher') || $request->is('teacher/*')){
+            return redirect()->guest('/teacher/login');
+        }
+
+         if($request->is('user') || $request->is('user/*')){
+             return redirect()->guest('/user/login');
+         }
+
+        return redirect()->guest(route('home'));
+     }
     /**
      * A list of the exception types that are not reported.
      *
-     * @var array<int, class-string<Throwable>>
+     * @var array
      */
     protected $dontReport = [
         //
@@ -19,23 +45,34 @@ class Handler extends ExceptionHandler
     /**
      * A list of the inputs that are never flashed for validation exceptions.
      *
-     * @var array<int, string>
+     * @var array
      */
     protected $dontFlash = [
-        'current_password',
         'password',
         'password_confirmation',
     ];
 
     /**
-     * Register the exception handling callbacks for the application.
+     * Report or log an exception.
      *
+     * @param  \Exception $exception
      * @return void
+     * @throws Exception
      */
-    public function register()
+    public function report(Exception $exception)
     {
-        $this->reportable(function (Throwable $e) {
-            //
-        });
+        parent::report($exception);
+    }
+
+    /**
+     * Render an exception into an HTTP response.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Exception  $exception
+     * @return \Illuminate\Http\Response
+     */
+    public function render($request, Exception $exception)
+    {
+        return parent::render($request, $exception);
     }
 }

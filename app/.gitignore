@@ -1,15 +1,28 @@
-/node_modules
-/public/hot
-/public/storage
-/storage/*.key
 /vendor
-.env
-.env.backup
-.phpunit.result.cache
-docker-compose.override.yml
-Homestead.json
-Homestead.yaml
+vendor/
+vendor/*
+/vendor/*
+vendor/symfony/
+node_modules/
 npm-debug.log
-yarn-error.log
-/.idea
-/.vscode
+.phpstorm.meta.php
+_ide_helper.php
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+storage/*.key
+.env.*.php
+.env.php
+.env.testing
+.env
+.idea/*
+Homestead.yaml
+Homestead.json
+
+# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
+.rocketeer/

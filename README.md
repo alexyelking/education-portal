@@ -106,3 +106,5 @@
 11. Выйти из web и полностью перезапустить докер:
 > docker-compose down && docker-compose up --build -d
 ---------------------------------------
+12. docker compose exec web bash
+13. php artisan migrate

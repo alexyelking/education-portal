@@ -1,1 +1,1 @@
-CREATE DATABASE sanya_db
+CREATE DATABASE hmq_db
