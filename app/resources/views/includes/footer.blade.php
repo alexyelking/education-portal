@@ -64,7 +64,7 @@
                 <a href="{{ route('home') }}">
                     <img src="{{ asset('img/logo2.png') }}" alt="">
                 </a>
-                <!-- span style="color: #fff;">HMQ-Education</span -->
+                <!-- span style="color: #fff;">COM-Education</span -->
             </div>
         </div>
     </div>

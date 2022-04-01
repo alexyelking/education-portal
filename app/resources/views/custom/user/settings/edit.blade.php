@@ -7,7 +7,7 @@
     <meta name="author" content="GeeksLabs">
     <meta name="keyword"
           content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
-    <link href="{{ config('static.static') }}/img/favicon.ico" rel="shortcut icon"/>
+    <link href="{{ asset('img/favicon.png') }}" rel="shortcut icon"/>
 
     <!-- Bootstrap CSS -->
     <link href="{{ asset('css/admin/bootstrap.min.css') }}" rel="stylesheet">
@@ -37,7 +37,7 @@
 
 @section('content')
     <section class="content-section set-bg fixed"
-             data-setbg="{{config('static.static')}}/img/bg.jpg">
+             data-setbg="{{ asset('img/bg.jpg') }}">
         <div class="container" style="padding-top: 200px;">
             <div class="row">
                 <section class="wrapper">

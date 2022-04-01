@@ -2,17 +2,17 @@
     {{-- <div class="language-section">
         <a style="color:#fff; margin-left: 11%;">@lang('content.chlang'):</a>
         <a href="{{ route('setLocale', ['ru']) }}"><img style="margin-bottom: 5px; border-radius: 20%"
-                                                        src="{{config('static.static')}}/img/icons/ru.png" alt=""></a>
+                                                        src="#" alt=""></a>
         <a href="{{ route('setLocale', ['en']) }}"><img style="margin-bottom: 5px; border-radius: 20%"
-                                                        src="{{config('static.static')}}/img/icons/us.png" alt=""></a>
+                                                        src="#" alt=""></a>
         <a href="{{ route('setLocale', ['fr']) }}"><img style="margin-bottom: 5px; border-radius: 20%"
-                                                        src="{{config('static.static')}}/img/icons/fr.png" alt=""></a>
+                                                        src="#" alt=""></a>
     </div>
     <div class="header-warp">
         <div class="container d-flex">
 
             <a href="{{ route('home') }}" class="site-logo">
-                <img src="{{config('static.static')}}/img/logo2.png" alt="">
+                <img src="#" alt="">
             </a>
 
             <div class="nav-switch">
@@ -47,7 +47,7 @@
         <nav class="navbar navbar-expand navbar-dark col-md-11" style="min-height: 128px; border: 0px; border-bottom: 3px solid #fee110; border-radius: 0; margin: 0; padding: 0">
             <div class="row jusctify-content-center col-md-12" style="margin: 0; padding: 0">
                 <a class="navbar-brand col-md-3" style="margin: 0" href="{{ route('home') }}">
-                    <img src="{{ asset('img/logo2.png') }}" alt="">
+                    <img src="{{ asset('img/favicon.png') }}" alt="">
                 </a>
                 <div class="collapse navbar-collapse col-md-6 col-sm-5" style="padding: 0">
                     <ul class="main-menu col-md-12" style="margin: 0; padding: 0">

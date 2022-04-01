@@ -11,7 +11,7 @@
                                 @if($teacher->avatar)
                                     <img src="{{ asset($teacher->avatar )}}" alt="">
                                 @else
-                                    <img src="{{config('static.static')}}/img/no-photo.jpg" alt="">
+                                    <img src="{{ asset('img/no-photo.jpg') }}" alt="">
                                 @endif
                             </div>
                             <h6><strong>{{ $teacher->name }}</strong></h6>
