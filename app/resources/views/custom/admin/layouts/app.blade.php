@@ -7,7 +7,7 @@
     <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
     <meta name="author" content="GeeksLabs">
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
-    <link href="{{ config('static.static') }}/img/favicon.ico" rel="shortcut icon"/>
+    <link href="{{ asset('img/favicon.png')}}" rel="shortcut icon"/>
 
     <title>@lang('content.admdash')</title>
 

@@ -22,7 +22,7 @@
                             <!-- <li class="by-me"> -->
                                 <!-- Use the class "pull-left" in avatar -->
                                 <!-- <div class="avatar pull-left">
-                                    <img src="{{config('static.static')}}/img/admin/user.jpg" alt=""/>
+                                    <img src="#" alt=""/>
                                 </div>
 
                                 <div class="chat-content"> -->
@@ -38,7 +38,7 @@
                             <!-- <li class="by-other"> -->
                                 <!-- Use the class "pull-right" in avatar -->
                                 <!-- <div class="avatar pull-right">
-                                    <img src="{{config('static.static')}}/img/admin/user22.png" alt=""/>
+                                    <img src="#" alt=""/>
                                 </div>
 
                                 <div class="chat-content"> -->
@@ -52,7 +52,7 @@
 
                             <li class="by-me">
                                 <div class="avatar pull-left">
-                                    <img src="{{config('static.static')}}/img/admin/user.jpg" alt=""/>
+                                    <img src="#" alt=""/>
                                 </div>
 
                                 <div class="chat-content">
@@ -67,7 +67,7 @@
                             <li class="by-other">-->
                                 <!-- Use the class "pull-right" in avatar -->
                                 <!-- <div class="avatar pull-right">
-                                    <img src="{{config('static.static')}}/img/admin/user22.png" alt=""/>
+                                    <img src="#" alt=""/>
                                 </div>
 
                                 <div class="chat-content"> -->
@@ -80,7 +80,7 @@
                                 </div>
                             </li> -->
 
-                        </ul> 
+                        </ul>
 
                     </div>
                     <!-- Widget footer -->
@@ -112,7 +112,7 @@
                         <div class="col-lg-4">
                     <span class="profile-ava pull-right">
                                         <img alt="" class="simple"
-                                             src="{{config('static.static')}}/img/admin/avatar1_small.jpg">
+                                             src="#">
                                         Jenifer smith
                                 </span>
                         </div>
@@ -131,7 +131,7 @@
                         <td>
                       <span class="profile-ava">
                                         <img alt="" class="simple"
-                                             src="{{config('static.static')}}/img/admin/avatar1_small.jpg">
+                                             src="#">
                                     </span>
                         </td>
                     </tr>
@@ -170,7 +170,7 @@
                         <td>
                       <span class="profile-ava">
                                         <img alt="" class="simple"
-                                             src="{{config('static.static')}}/img/admin/avatar1_small.jpg">
+                                             src="#">
                                       </span>
                         </td>
                     </tr>
@@ -221,7 +221,7 @@
                         <td>
                       <span class="profile-ava">
                                         <img alt="" class="simple"
-                                             src="{{config('static.static')}}/img/admin/avatar1_small.jpg">
+                                             src="#">
                                       </span>
                         </td>
                     </tr>
