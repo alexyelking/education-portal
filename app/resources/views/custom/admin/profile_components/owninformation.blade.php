@@ -2,7 +2,7 @@
     <div class="row">
         <!-- profile-widget -->
         <div class="col-lg-12">
-            <div class="profile-widget profile-widget-info">
+            <div class="profile-widget" style="background-color: #1a2732">
                 <div class="panel-body">
                     <div class="col-lg-2 col-sm-2">
                         <h4>{{ $user->name }}</h4>

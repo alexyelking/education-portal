@@ -4,7 +4,8 @@
             <h3 class="page-header"><i class="fa fa-user-md"></i>@lang('content.prfl')</h3>
             <ol class="breadcrumb">
                 <li><i class="fa fa-home"></i><a href="{{ route('home') }}">@lang('content.home')</a></li>
-                <li><i class="fa fa-user-md"></i>@lang('content.prfl') - {{ $user->name }}</li>
+                <li><i class="fa fa-user-md"></i>@lang('content.prfl')</li>
+                <li><i class="fa fa-user-md"></i>{{ $user->name }}</li>
             </ol>
         </div>
     </div>

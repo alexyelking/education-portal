@@ -2,18 +2,18 @@
     <div class="row">
         <div class="col-lg-12">
             <section class="panel">
-                <header class="panel-heading tab-bg-info">
+                <header class="panel-heading" style="background-color: #394a59">
                     <ul class="nav nav-tabs">
                         <li class="active">
                             <a data-toggle="tab" href="#profile">
                                 <i class="icon-user"></i>
-                                @lang('content.prfl')
+                                <b>@lang('content.prfl')</b>
                             </a>
                         </li>
                         <li class="">
                             <a data-toggle="tab" href="#edit-profile">
                                 <i class="icon-envelope"></i>
-                                @lang('content.editprof')
+                            <b>@lang('content.editprof')</b>
                             </a>
                         </li>
                     </ul>
@@ -23,34 +23,35 @@
                         <div id="profile" class="tab-pane active">
                             <section class="panel">
                                 <div class="bio-graph-heading">
-                                    Hello I’m {{ $user->name }}, and there will be some information about me
+                                    Приветствую! Я -
+                                    {{ $user->name }}. Тут некоторая информация обо мне:
                                 </div>
                                 <div class="panel-body bio-graph-info">
                                     <h1>@lang('content.biog')</h1>
                                     <div class="row">
                                         <div class="bio-row">
-                                            <p><span>@lang('content.fnm') </span>: Jenifer </p>
+                                            <p><span>@lang('content.fnm') </span>Александр </p>
                                         </div>
                                         <div class="bio-row">
-                                            <p><span>@lang('content.lnm') </span>: Smith</p>
+                                            <p><span>@lang('content.lnm') </span>Иванов</p>
                                         </div>
                                         <div class="bio-row">
-                                            <p><span>@lang('content.brthday')</span>: 27 August 1987</p>
+                                            <p><span>@lang('content.brthday')</span>27 Августа 1991</p>
                                         </div>
                                         <div class="bio-row">
-                                            <p><span>@lang('content.country') </span>: United</p>
+                                            <p><span>@lang('content.country') </span>Россия</p>
                                         </div>
                                         <div class="bio-row">
-                                            <p><span>@lang('content.occupation') </span>: UI Designer</p>
+                                            <p><span>@lang('content.occupation') </span>UI Дизайнер</p>
                                         </div>
                                         <div class="bio-row">
-                                            <p><span>@lang('content.eml') </span>:jenifer@mailname.com</p>
+                                            <p><span>@lang('content.eml') </span>ivanov1991@gmail.com</p>
                                         </div>
                                         <div class="bio-row">
-                                            <p><span>@lang('content.mobile') </span>: (+6283) 456 789</p>
+                                            <p><span>@lang('content.mobile') </span>+7(904) 587 75 58</p>
                                         </div>
                                         <div class="bio-row">
-                                            <p><span>@lang('content.phn') </span>: (+021) 956 789123</p>
+                                            <p><span>@lang('content.phn') </span>+7 (908) 316 95 96</p>
                                         </div>
                                     </div>
                                 </div>
