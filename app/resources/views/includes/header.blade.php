@@ -47,7 +47,7 @@
         <nav class="navbar navbar-expand navbar-dark col-md-11" style="min-height: 128px; border: 0px; border-bottom: 3px solid #fee110; border-radius: 0; margin: 0; padding: 0">
             <div class="row jusctify-content-center col-md-12" style="margin: 0; padding: 0">
                 <a class="navbar-brand col-md-3" style="margin: 0" href="{{ route('home') }}">
-                    <img src="{{ asset('img/favicon.png') }}" alt="">
+                    <img src="{{ asset('img/logo.png') }}" alt="" style="margin-left: 20%">
                 </a>
                 <div class="collapse navbar-collapse col-md-6 col-sm-5" style="padding: 0">
                     <ul class="main-menu col-md-12" style="margin: 0; padding: 0">
@@ -55,7 +55,6 @@
                         <li class="nav-item active"><a style="margin-top: 14px" class="nav-link" href="{{ route('home') }}#courses">@lang('content.courses')</a></li>
                         <li class="nav-item active"><a class="nav-link" href="{{ route('home') }}#about">@lang('content.about us')</a></li>
                         <li class="nav-item active"><a class="nav-link" href="{{ route('home') }}#newslatter">@lang('content.news')</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="{{ route('home') }}#contact">@lang('content.contact us')</a></li>
                         <li class="nav-item active"><a class="nav-link" href="{{ route('home') }}#contact">@lang('content.contact us')</a></li>
                     </ul>
                 </div>

@@ -148,13 +148,13 @@ ol {
 .review-slider .rs-item .quota,
 .course-item .course-preview .price,
 .course-item .seller-info {
-	background: #185dd0;
+	background: #1a2732;
 	/* Old browsers */
 	/* FF3.6-15 */
 	/* Chrome10-25,Safari5.1-6 */
-	background: -webkit-gradient(linear, left top, right top, from(#185dd0), to(#7076fc));
-	background: -o-linear-gradient(left, #185dd0 0%, #7076fc 100%);
-	background: linear-gradient(to right, #185dd0 0%, #7076fc 100%);
+	background: -webkit-gradient(linear, left top, right top, from(#1a2732), to(#394a59));
+	background: -o-linear-gradient(left, #1a2732 0%, #394a59 100%);
+	background: linear-gradient(to right, #1a2732 0%, #394a59 100%);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#185dd0', endColorstr='#7076fc', GradientType=1);
 	/* IE6-9 */
@@ -883,7 +883,7 @@ ol {
 	width: 0;
 	right: 0;
 	top: 0;
-	background: #1a5ed1;
+	background: #394a59;
 	z-index: 1;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;

@@ -1,6 +1,6 @@
 @if (Request::is('/')|| Request::is('course/*'))
     <div class="row justify-content-center">
-        <div class="dropdown">
+        <div class="dropdown" style="padding-right: 10px">
             <button  class="nav-item active  site-btn-info-sm col-md-12" type="button" id="dropdownMenuButton" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                 <strong>@lang('content.ent')</strong>
