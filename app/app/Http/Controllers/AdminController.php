@@ -26,10 +26,20 @@ class AdminController extends Controller
      * Show the application dashboard.
      *
      * @return \Illuminate\Contracts\Support\Renderable
+     * @throws \Exception
      */
     public function index()
     {
-        return view('custom.admin.dashboard');
+        $one = random_int(100, 200);
+        $two = random_int(300, 700);
+        $derevo = random_int(800, 999);
+        $four = random_int(800, 1600);
+        return view('custom.admin.dashboard',[
+            'one' => $one,
+            'two' => $two,
+            'derevo' => $derevo,
+            'four' => $four
+        ]);
     }
 
     public function show(Request $request)

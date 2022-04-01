@@ -2,9 +2,9 @@
 
     <div class="row">
 
-        <!-- @include('custom.admin.dashboard_components.countrystat') -->
+        @include('custom.admin.dashboard_components.countrystat')
 
-        <!-- @include('custom.admin.dashboard_components.socialnetworks') -->
+        @include('custom.admin.dashboard_components.socialnetworks')
 
     </div>
 

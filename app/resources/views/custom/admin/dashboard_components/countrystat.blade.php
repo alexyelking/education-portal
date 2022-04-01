@@ -22,8 +22,8 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td><img src="{{config('static.static')}}/img/admin/Germany.png"
-                                 style="height:18px; margin-top:-2px;"></td>
+                        <td><img src="{{ asset('img/icons/countrystat/gr.png') }}"
+                                 style="height:30px; margin-top:-2px;"></td>
                         <td>Germany</td>
                         <td>2563</td>
                         <td>1025</td>
@@ -42,8 +42,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="{{config('static.static')}}/img/admin/India.png"
-                                 style="height:18px; margin-top:-2px;"></td>
+                        <td><img src="{{ asset('img/icons/countrystat/in.png') }}"
+                                 style="height:30px; margin-top:-2px;"></td>
                         <td>India</td>
                         <td>3652</td>
                         <td>2563</td>
@@ -62,8 +62,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="{{config('static.static')}}/img/admin/Spain.png"
-                                 style="height:18px; margin-top:-2px;"></td>
+                        <td><img src="{{ asset('img/icons/countrystat/sp.png') }}"
+                                 style="height:30px; margin-top:-2px;"></td>
                         <td>Spain</td>
                         <td>562</td>
                         <td>452</td>
@@ -82,8 +82,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="{{config('static.static')}}/img/admin/Russia.png"
-                                 style="height:18px; margin-top:-2px;"></td>
+                        <td><img src="{{ asset('img/icons/countrystat/ru.png') }}"
+                                 style="height:30px; margin-top:-2px;"></td>
                         <td>Russia</td>
                         <td>1258</td>
                         <td>958</td>
@@ -102,8 +102,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="{{config('static.static')}}/img/admin/Spain.png"
-                                 style="height:18px; margin-top:-2px;"></td>
+                        <td><img src="{{ asset('img/icons/countrystat/us.png') }}"
+                                 style="height:30px; margin-top:-2px;"></td>
                         <td>USA</td>
                         <td>4856</td>
                         <td>3621</td>
@@ -122,8 +122,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="{{config('static.static')}}/img/admin/Spain.png"
-                                 style="height:18px; margin-top:-2px;"></td>
+                        <td><img src="{{ asset('img/icons/countrystat/br.png') }}"
+                                 style="height:30px; margin-top:-2px;"></td>
                         <td>Brazil</td>
                         <td>265</td>
                         <td>102</td>
@@ -142,8 +142,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="{{config('static.static')}}/img/admin/Spain.png"
-                                 style="height:18px; margin-top:-2px;"></td>
+                        <td><img src="{{ asset('img/icons/countrystat/co.png') }}"
+                                 style="height:30px; margin-top:-2px;"></td>
                         <td>Coloumbia</td>
                         <td>265</td>
                         <td>102</td>
@@ -162,8 +162,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="{{config('static.static')}}/img/admin/Spain.png"
-                                 style="height:18px; margin-top:-2px;"></td>
+                        <td><img src="{{ asset('img/icons/countrystat/fr.png') }}"
+                                 style="height:30px; margin-top:-2px;"></td>
                         <td>France</td>
                         <td>265</td>
                         <td>102</td>

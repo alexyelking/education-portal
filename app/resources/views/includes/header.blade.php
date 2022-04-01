@@ -37,12 +37,12 @@
     <div class="row justify-content-center">
         <div class="row col-md-11" style="margin: 0; padding: 0">
             <a style="color:#fff; padding-top: 5px;">@lang('content.chlang'):&nbsp;</a>
-            <a href="{{ route('setLocale', ['ru']) }}"><img style="margin-bottom: 16px; border-radius: 20%"
+            <a href="{{ route('setLocale', ['ru']) }}"><img style="margin-bottom: 16px; border-radius: 30%; margin-right: 5px"
                                                             src="{{ asset('img/icons/ru.png') }}" alt=""></a>
-            <a href="{{ route('setLocale', ['en']) }}"><img style="margin-bottom: 16px; border-radius: 20%"
+            <a href="{{ route('setLocale', ['en']) }}"><img style="margin-bottom: 16px; border-radius: 30%; margin-right: 5px"
                                                             src="{{ asset('img/icons/us.png') }}" alt=""></a>
-            <a href="{{ route('setLocale', ['fr']) }}"><img style="margin-bottom: 16px; border-radius: 20%"
-                                                            src="{{ asset('img/icons/fr.png') }}" alt=""></a>
+            <a href="{{ route('setLocale', ['gr']) }}"><img style="margin-bottom: 16px; border-radius: 30%; margin-right: 5px"
+                                                            src="{{ asset('img/icons/gr.png') }}" alt=""></a>
         </div>
         <nav class="navbar navbar-expand navbar-dark col-md-11" style="min-height: 128px; border: 0px; border-bottom: 3px solid #fee110; border-radius: 0; margin: 0; padding: 0">
             <div class="row jusctify-content-center col-md-12" style="margin: 0; padding: 0">
