@@ -104,3 +104,8 @@
 12. php artisan db:seed
 13. php artisan optimize
 14. docker-compose down && docker-compose up --build -d
+---------------------------------------
+## Как спулить данные с репозитория? (Сделать обнволение)
+---------------------------------------
+1. git pull origin master
+2. ЕСЛИ НАДО - МОЖНО ПОЛНОСТЬЮ ПЕРЕЗАГРУЗИТЬ ДОКЕР
