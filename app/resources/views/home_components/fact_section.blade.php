@@ -12,14 +12,14 @@
                 <figure>
                     <img src="{{ asset('img/icons/2.png') }}" alt="">
                 </figure>
-                <h2>?</h2>
+                <h2>{{ $count = DB::table('users')->count()}}</h2>
                 <p>@lang('content.gradstudents')</p>
             </div>
             <div class="col-lg-3 col-sm-6 fact-item">
                 <figure>
                     <img src="{{ asset('img/icons/3.png') }}" alt="">
                 </figure>
-                <h2>?</h2>
+                <h2>{{ $count = DB::table('teachers')->count()}}</h2>
                 <p>@lang('content.qualteachers')</p>
             </div>
             <div class="col-lg-3 col-sm-6 fact-item">

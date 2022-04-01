@@ -6,7 +6,7 @@
     </div>
 
     <!--logo start-->
-    <a href="{{ route('home') }}" class="logo">com-edu.com</a>
+    <a href="{{ route('home') }}" class="logo">COM-education</a>
     <!--logo end-->
 
     <div class="top-nav notification-row">

@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Str;
 
 class CoursesTableSeeder extends Seeder
 {
@@ -15,41 +17,41 @@ class CoursesTableSeeder extends Seeder
         //
         $data = [
             [
-                'title' => 'Test course 0',
+                'title' => 'Курс по английскому языку',
                 'slug' => Str::slug('Test course 0'),
-                'description_short' => 'This is a short description of test course 0',
-                'description' => 'This is a description of test course 0',
-                'tags' => 'tag0, tag1',
+                'description_short' => 'Изучай английский язык используя современные методы',
+                'description' => 'Времена, когда учить английский можно было только по словарям, учебникам без картинок и с репетитором — давно в прошлом. Сейчас учить язык гораздо легче по нескольким причинам, в том числе из-за новейши методик обучения.',
+                'tags' => 'Английский, Языки, Обучение, Билингва',
                 'image' => '#',
                 'video' => '#',
                 'created_by' => $creatorId
             ],
             [
-                'title' => 'Test course 1',
+                'title' => 'Гитара с нуля',
                 'slug' => Str::slug('Test course 1'),
-                'description_short' => 'This is a short description of test course 1',
-                'description' => 'This is a description of test course 1 This is a description of test course 1 This is a description of test course 1',
-                'tags' => 'tag0, tag1',
+                'description_short' => 'Очень познавательный и полезный курс обучения игре на гитаре',
+                'description' => 'Гитара — струнный щипковый музыкальный инструмент. Применяется в качестве аккомпанирующего или сольного инструмента во многих стилях и направлениях музыки, среди которых романс, блюз, кантри, фламенко, рок, джаз.',
+                'tags' => 'Гитара, Струны, Музыка, Аккорды',
                 'image' => '#',
                 'video' => '#',
                 'created_by' => $creatorId
             ],
             [
-                'title' => 'Test course 2',
+                'title' => 'Программирование на PHP',
                 'slug' => Str::slug('Test course 2'),
-                'description_short' => 'This is a short description of test course 2',
-                'description' => 'This is a description of test course 2 This is a description of test course 2 This is a description of test course 2',
-                'tags' => 'tag0, tag1',
+                'description_short' => 'Хотите делать такие же крутые веб-приложения? Тогда курс для вас',
+                'description' => 'PHP — скриптовый язык общего назначения, интенсивно применяемый для разработки веб-приложений. В настоящее время поддерживается подавляющим большинством хостинг-провайдеров и является одним из лидеров среди языков, применяющихся для создания динамических веб-сайтов.',
+                'tags' => 'PHP, Сервер, Программирование, Веб-приложения',
                 'image' => '#',
                 'video' => '#',
                 'created_by' => $creatorId
             ],
             [
-                'title' => 'Another test course',
+                'title' => 'Каллиграфия на автомобилях',
                 'slug' => Str::slug('Another test course'),
-                'description_short' => 'This is a short description of another test course',
-                'description' => 'This is a description of another test course This is a description ofadsfgasgasdg This is a description of asdfasddfasadfsaddf',
-                'tags' => 'tag0, tag1',
+                'description_short' => 'Художественное письмо — один из сложнейших видов произвольных действий.',
+                'description' => 'Каллиграфия — одна из отраслей изобразительного искусства. Ещё каллиграфию часто называют искусством красивого письма. Современное определение каллиграфии звучит следующим образом: «искусство оформления знаков в экспрессивной, гармоничной и искусной манере».',
+                'tags' => 'Каллиграфия, Автомобили, Шрифт, Красота',
                 'image' => '#',
                 'video' => '#',
                 'created_by' => $creatorId

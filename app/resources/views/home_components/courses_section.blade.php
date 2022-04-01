@@ -1,12 +1,12 @@
 <section class="courses-section">
     <div class="container">
         <div class="sec-title text-center">
-            <span>@lang('content.otb')</span>
+            <h1>@lang('content.otb'):</h1>
             <a id="courses"></a>
-            <h2>@lang('content.courses')</h2>
-            <p>@lang('content.txtunderotb').</p>
-            <h5>@lang('content.hm')</h5>
-            <p>@lang('content.txtunderhm'). </p>
+            <h3>@lang('content.courses')</h3>
+            <h5>@lang('content.txtunderotb').</h5>
+{{--            <h2>@lang('content.hm')</h2>--}}
+            <h5>@lang('content.txtunderhm'). </h5>
         </div>
         <div class="course-slider owl-carousel"> <!--   -->
             <!-- course -->
@@ -15,7 +15,7 @@
             @foreach($courses as $course)
                 <div class="course-item">
                     <figure class="course-preview">
-                        @if($course->image)
+                        @if(($course->image)!='#')
                             <img src="{{ asset($course->image )}}" alt="">
                         @else
                             <img src="{{ asset('img/no-photo.jpg') }}" alt="">
@@ -41,10 +41,9 @@
                             </div>
                         </div>
                         <div class="seller-info">
-                            <div class="seller-pic set-bg" data-setbg="">[Profile avatar]</div>
-                            {{--<h6><a style="color: #fff"--}}
-                                   {{--href="{{ route('user_profile', $course->teacher->id) }}">By {{$course->teacher->name}}</a>,--}}
-                                {{--<span>[who is]</span></h6>--}}
+                            <div class="seller-pic set-bg" data-setbg="">
+                                    <img alt="" src="{{ asset('img/teacher.jpg')}}" style="border-radius:30%">
+                            </div>
                         </div>
                     </div>
                 </div>
