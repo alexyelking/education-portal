@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-7">
                 <div class="hero-text text-white">
-                    <h2>COM-education @lang('content.edcourse')</h2>
+                    <h2>Диплом фальшивка ебанная @lang('content.edcourse')</h2>
                     <p>@lang('content.presentation').</p>
                     <br><br>
                     <p><i>@lang('content.smartphrase')</i></p>
