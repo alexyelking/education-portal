@@ -16,9 +16,9 @@ class ClassroomInvitesTableSeeder extends Seeder
             [
                 'classroom_id' => 1,
                 'user_id' => 1,
-                'message_title' => 'invite title',
+                'message_title' => 'Приглашение в класс',
                 'title_slug' => Str::slug('invite title'),
-                'message_text' => 'invite text',
+                'message_text' => 'Приглашаем вас принять участие в прохождении курса по английскому языку',
 
             ]
         ];

@@ -16,12 +16,12 @@ class ClassroomsTableSeeder extends Seeder
         $data = [
             [
                 'name' => 'test classroom',
-                'slug' =>Str::slug('test classroom'),
+                'slug' =>Str::slug('Класс 1'),
                 'teacher_id' => $teacherID,
             ],
             [
                 'name' => 'test classroom 2',
-                'slug' =>Str::slug('test classroom 2'),
+                'slug' =>Str::slug('Класс 2'),
                 'teacher_id' => $teacherID,
             ],
         ];

@@ -8,7 +8,7 @@
                 <div class="col-xs-10 col-sm-8 col-md-8 col-lg-7 col-xl-6 card"
                      style="border: 0; padding: 0; color: gray;">
                     <div class="text-white card-header"
-                         style="background: #185dd0; background: -webkit-gradient(linear, left top, right top, from(#185dd0), to(#7076fc)); background: linear-gradient(to right, #185dd0 0%, #7076fc 100%);">
+                         style="background: #1a2732; background: -webkit-gradient(linear, left top, right top, from(#1a2732), to(#394a59)); background: linear-gradient(to right, #1a2732 0%, #394a59 100%);">
                         <h2 style="text-align: center;">@lang('content.laa')</h2>
                     </div>
                     <form method="POST" action="{{ route('admin.loginRequest') }}" style="padding-top: 25px;"

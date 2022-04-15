@@ -14,7 +14,7 @@ class AdminsTableSeeder extends Seeder
     {
         $data = [
             [
-                'name' => 'adminName',
+                'name' => 'Oscar',
                 'email' => 'admin@mail.com',
                 'password' => Hash::make('password')
             ]

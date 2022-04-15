@@ -14,22 +14,22 @@ class UsersTableSeeder extends Seeder
     {
         $data = [
             [
-                'name' => 'userName',
+                'name' => 'Alex',
                 'email' => 'user@mail.com',
                 'password' => Hash::make('password'),
             ],
             [
-                'name' => 'user2Name',
+                'name' => 'Jack',
                 'email' => 'user2@mail.com',
                 'password' => Hash::make('password'),
             ],
             [
-                'name' => 'user3Name',
+                'name' => 'Charley',
                 'email' => 'user3@mail.com',
                 'password' => Hash::make('password'),
             ],
             [
-                'name' => 'anotherUserName',
+                'name' => 'Oscar',
                 'email' => 'anotherUser@mail.com',
                 'password' => Hash::make('password'),
             ],

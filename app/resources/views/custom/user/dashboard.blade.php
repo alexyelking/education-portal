@@ -12,7 +12,7 @@
                     @foreach($invites as $invite)
                         <div class="card" style="border: 0; padding: 0;">
                             <div class="card-header text-white "
-                                 style="background: #185dd0; background: -webkit-gradient(linear, left top, right top, from(#185dd0), to(#7076fc)); background: linear-gradient(to right, #185dd0 0%, #7076fc 100%);">
+                                 style="background: #1a2732; background: -webkit-gradient(linear, left top, right top, from(#1a2732), to(#394a59)); background: linear-gradient(to right, #1a2732 0%, #394a59 100%);">
                                 <h2 style="margin-top: 10px;"><strong
                                             style="padding-left: 20px;">{{ $invite->message_title }}</strong></h2>
                             </div>
