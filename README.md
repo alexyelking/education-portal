@@ -1,113 +1,61 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%56025c&lines=Сашенька,+диплом+скоро+будет)](https://vk.com/lampanon)
----------------------------------------
-## Что установить?
----------------------------------------
-1. Установка гит
-> sudo apt install git
----------------------------------------
-2. Ключ для гит
-> ssh-keygen -t rsa
-<br/>
-<br/>
-> cat ~/.ssh/id_rsa.pub
----------------------------------------
-3. Апач сервер
-> sudo apt update
-<br/>
-<br/>
-> sudo apt install apache2
-<br/>
-<br/>
-> sudo ufw app list
-<br/>
-<br/>
-> sudo ufw allow in "Apache"
----------------------------------------
-4. Мускул
-> sudo apt install mysql-server
----------------------------------------
-5. Пыха
-> sudo apt install php libapache2-mod-php php-mysql
-<br/>
-<br/>
-> sudo apt-get install php7.4-mbstring
-<br/>
-<br/>
-> sudo apt-get install php7.4-xml
----------------------------------------
-6. Копмозер
-> curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
----------------------------------------
-7. Докер
-> sudo apt update
-<br/>
-<br/>
-> sudo apt install apt-transport-https ca-certificates curl software-properties-common
-<br/>
-<br/>
-> curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-<br/>
-<br/>
-> sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
-<br/>
-<br/>
-> sudo apt update
-<br/>
-<br/>
-> apt-cache policy docker-ce
-<br/>
-<br/>
-> sudo apt install docker-ce
-<br/>
-<br/>
-> sudo usermod -aG docker ${USER}
-<br/>
-<br/>
-> su - ${USER}
----------------------------------------
-8. Докер компоуз
-> sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-<br/>
-<br/>
-> sudo chmod +x /usr/local/bin/docker-compose
----------------------------------------
-## Что делать после клонирования репозитория?
----------------------------------------
-1. Скопировать файл окружения для докер:
-> cp .env.example .env
----------------------------------------
-2. Указать свои порты, если надо
-> Просто оставить всё на своих местах
----------------------------------------
-3. Запретить гиту отслеживать права:
-> git config core.filemode false
----------------------------------------
-4. Сбилдить/запустить докер:
-> docker-compose up --build -d
----------------------------------------
-5. Ждать пока композер не отработает своё
-> в папке vendor должен появиться autoload
----------------------------------------
-6. Выдать права в корне проекта:
-> sudo chmod -R 777 *
----------------------------------------
-7. Скопировать файл окружения для проекта, и засунуть в него настройки для почты:
-> cp .env.example .env
----------------------------------------
-8. Залезть внутрь web:
-> docker-compose exec web bash
----------------------------------------
-9. Создать ключ для приложения:
-> php artisan key:generate
-10. php artisan optimize
-11. php artisan migrate
-12. php artisan db:seed
-13. php artisan optimize
-14. docker-compose down && docker-compose up --build -d
----------------------------------------
-## Как спулить данные с репозитория? (Сделать обнволение)
----------------------------------------
-1. КОМАНДА ДЛЯ ПУЛЛИНГА
-> git pull origin master
-2. ПЕРЕЗАПУСК ДОКЕР КОМПОУЗА
-> docker-compose down && docker-compose up --build -d
+### The algorithm for running:
+
+1. Duplicate «.env.example» and rename to «.env»
+```
+cp .env .env.example 
+```
+
+2. Specify a free port to follow the link, or leave the one that has already been installed
+
+
+3. Git config core file mode must be false
+```
+git config core.filemode false
+```
+
+4. Launch Docker-compose
+```
+docker-compose up --build -d
+```
+
+5. Wait for composer to finish working (the «autoload» file will appear in the «vendor» folder)
+ 
+ 
+6. Grant rights for convenience in the root of the project
+```
+sudo chmod -R 777 *
+```
+ 
+7. Go to the «app» folder in order to duplicate «.new.example» and rename it to «.env» This «.env» file is an environment variable file for the application itself
+```
+cp .env.example .env
+```
+
+8. In the root folder of the project, you need to go inside Docker for further configuration
+```
+docker-compose exec web bash
+```
+
+9. Generate an application key and do everything below this:
+```
+php artisan key:generate
+```
+```
+php artisan optimize
+```
+```
+php artisan migrate
+```
+```
+php artisan db:seed
+```
+```
+php artisan optimize
+```
+
+10. Completely restart Docker 
+```
+docker-compose down && docker-compose up --build -d
+```
+
+### Ready to start
