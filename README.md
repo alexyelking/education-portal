@@ -52,6 +52,9 @@ php artisan db:seed
 ```
 php artisan optimize
 ```
+```
+php artisan storage:link
+```
 
 10. Completely restart Docker 
 ```
