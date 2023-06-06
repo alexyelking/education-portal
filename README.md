@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="public/img/icons/2.png" width="100" height="100" alt="SPA">
+</div>
+
 # Education portal
 
 ## Contents
